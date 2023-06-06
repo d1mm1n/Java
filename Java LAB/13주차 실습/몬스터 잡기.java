@@ -98,7 +98,7 @@ public class MonsterGame extends JFrame {
         });
         timer.start();
 
-        setContentPane(panel);
+        add(panel);
         setSize(700, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
